@@ -1,0 +1,17 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "exclude": [
+    "**/setup.{js,ts}",
+    "**/testUtils.{js,ts}",
+    "**/styles.{js,ts}",
+    "**/*.test.{js,jsx,ts,tsx}"
+  ],
+  "reporter": [
+    "json-summary",
+    "html",
+    "text",
+    "text-summary"
+  ],
+  "report-dir": "./target/",
+  "temp-dir": "./target/temp/.nyc_output"
+}
