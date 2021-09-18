@@ -2,7 +2,6 @@
   "diff": true,
   "check-leaks": true,
   "recursive": true,
-  "timeout": 6000,
   "ui": "bdd",
   "require": [
     "setup.js"

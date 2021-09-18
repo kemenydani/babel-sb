@@ -1,14 +1,11 @@
 import {expect} from 'chai';
 import {mount} from "enzyme";
 import * as React from "react";
-import Foo from './components/Foo'
+import Foo from "./Foo";
 
-// @ts-ignore
-describe('bar testcase', () => {
-    // @ts-ignore
+describe('testcase', () => {
     it('should run', () => {
-        const foo: number = 1;
-        expect(foo).to.equal(1);
+        expect(1).to.equal(1);
     });
 
     it('should render foo', () => {

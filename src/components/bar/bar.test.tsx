@@ -1,11 +1,14 @@
 import {expect} from 'chai';
 import {mount} from "enzyme";
-import Bar from "./components/Bar";
 import * as React from "react";
+import Bar from "./Bar";
 
-describe('testcase', () => {
+// @ts-ignore
+describe('bar testcase', () => {
+    // @ts-ignore
     it('should run', () => {
-        expect(1).to.equal(1);
+        const bar: number = 1;
+        expect(bar).to.equal(1);
     });
 
     it('should render bar', () => {
